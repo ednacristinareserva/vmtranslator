@@ -1,5 +1,9 @@
 class Parser:
 
+    # responsável por ler e interpretar comandos VM.
+    # implementação da Parte 1 (Project 07).
+
+
     ARITHMETIC_COMMANDS = {
         "add", "sub", "neg",
         "eq", "gt", "lt",

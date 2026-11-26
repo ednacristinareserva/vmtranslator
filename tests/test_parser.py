@@ -1,9 +1,9 @@
-
 import os
 import tempfile
 import unittest
 
 from parser.parser import Parser
+
 
 class TestParser(unittest.TestCase):
 
@@ -67,6 +67,7 @@ class TestParser(unittest.TestCase):
 
         with self.assertRaises(ValueError):
             self.parser.arg2()
+
 
 if __name__ == "__main__":
     unittest.main()
