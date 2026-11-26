@@ -1,0 +1,2 @@
+# Projeto desenvolvido com Python 3.
+# Não utiliza dependências externas.
